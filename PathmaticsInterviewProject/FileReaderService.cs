@@ -12,15 +12,15 @@ namespace PathmaticsInterviewProject
     public class FileReaderService
     {
         public Dictionary<string, string> DuplicateValues = new();
-        public List<string> IgnoreNameList = new();
 
+        private readonly List<string> _ignoreNameList = new();
         private readonly string _fileName;
         private readonly Dictionary<string, string> _mainList = new();
 
-        public FileReaderService(string fileName)
+        public FileReaderService(string fileName, List<string> ignoreList)
         {
             _fileName = fileName;
-            IgnoreNameList.AddRange(new List<string> { " Inc.", " Inc", " Ltd", " LLC.", " LLC", ".com", "Software" });
+            _ignoreNameList.AddRange(ignoreList);
         }
 
         public async Task PrintDuplicates()
@@ -65,7 +65,7 @@ namespace PathmaticsInterviewProject
             var contentToLower = content.ToLower();
 
             // Remove words in the generalWord List
-            foreach (var valueToRemove in IgnoreNameList)
+            foreach (var valueToRemove in _ignoreNameList)
             {
                 if (contentToLower.Contains(valueToRemove.ToLower()))
                 {
