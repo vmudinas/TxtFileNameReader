@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathmaticsInterviewProject", "PathmaticsInterviewProject.csproj", "{68D6E6CB-5A3E-4A34-BDD0-799E0EE1A403}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFileReader", "..\TestFileReader\TestFileReader.csproj", "{A3B8B6C7-1C2F-46A3-862B-FAF67A1FAE41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68D6E6CB-5A3E-4A34-BDD0-799E0EE1A403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68D6E6CB-5A3E-4A34-BDD0-799E0EE1A403}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68D6E6CB-5A3E-4A34-BDD0-799E0EE1A403}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68D6E6CB-5A3E-4A34-BDD0-799E0EE1A403}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3B8B6C7-1C2F-46A3-862B-FAF67A1FAE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B8B6C7-1C2F-46A3-862B-FAF67A1FAE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B8B6C7-1C2F-46A3-862B-FAF67A1FAE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B8B6C7-1C2F-46A3-862B-FAF67A1FAE41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AAFF143-AD5C-4694-9BFF-A046D9A947CD}
+	EndGlobalSection
+EndGlobal
